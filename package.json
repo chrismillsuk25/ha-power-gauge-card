@@ -4,8 +4,8 @@
   "description": "A production-ready custom Home Assistant gauge card for power consumption with UI editor support.",
   "private": false,
   "type": "module",
-  "author": "OpenAI",
-  "license": "MIT",
+  "author": "Christopher Mills",
+  "license": "",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/yourname/ha-power-gauge-card.git"
