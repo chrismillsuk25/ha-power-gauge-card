@@ -79,14 +79,6 @@ show_value: true
 show_labels: true
 ```
 
-## HACS install
-
-1. Push this repo to GitHub
-2. Create a GitHub release
-3. In HACS add it as a custom frontend repository
-4. Install it and reload Home Assistant
-5. Add the dashboard resource if HACS does not do it automatically in your setup
-
 ## UI editor
 
 This card includes a visual editor. In Home Assistant:
@@ -145,26 +137,3 @@ double_tap_action:
   url_path: https://example.com
 ```
 
-## Notes
-
-- Replace the GitHub repository URL in `package.json`
-- Update `author`, license ownership, and release workflow to match your GitHub account
-- If you want richer editor support for actions, add dedicated editor fields for them later
-
-## Development workflow
-
-```bash
-npm install
-npm run dev
-```
-
-Then symlink or copy the output file into your HA `/config/www/` folder and refresh the browser.
-
-## Suggested next upgrades
-
-- icon picker in the visual editor
-- action editor in the visual editor
-- radial gradient fills
-- compact and hero layouts
-- peak marker and historical sparkline
-- configurable decimal places
