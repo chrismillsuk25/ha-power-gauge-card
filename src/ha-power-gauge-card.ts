@@ -528,7 +528,7 @@ export class HaPowerGaugeCard extends LitElement {
 
     return svg`
       <svg class="gauge" viewBox="0 0 220 160" @click=${this._showHistory}>
-        ${this._config.glow ? svg`<defs><filter id="glow"><feGaussianBlur stdDeviation="2" result="colored"/><feMerge><feMergeNode in="colored"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>` : svg``}
+        ${this._config.glow ? svg`<defs><filter id="glow" x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox"><feGaussianBlur in="SourceGraphic" stdDeviation="3" result="coloredBlur"/><feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>` : svg``}
 
         ${this.renderHistory()}
 
