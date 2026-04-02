@@ -5,7 +5,7 @@
   "private": false,
   "type": "module",
   "author": "Christopher Mills",
-  "license": "",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/yourname/ha-power-gauge-card.git"
